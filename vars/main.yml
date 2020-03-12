@@ -1,6 +1,9 @@
 ---
 # vars file for gnome
 _gnome_packages:
+  Alpine:
+    - gnome
+    - gnome-apps
   Debian: &debian
     - gnome-session
   Fedora:
