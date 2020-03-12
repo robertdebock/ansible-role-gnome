@@ -15,6 +15,10 @@ _gnome_packages:
     - xorg-x11-fonts-Type1
   CentOS-8: &centos-8
     - "@Workstation"
+  openSUSE Leap:
+    - gnome
+    - gnome-desktop
+    - gnome-session
   RedHat-7: *centos-7
   RedHat-8: *centos-8
   Ubuntu: *debian
