@@ -16,7 +16,6 @@ _gnome_packages:
   CentOS-8: &centos-8
     - "@Workstation"
   openSUSE Leap:
-    - gnome
     - gnome-desktop
     - gnome-session
   RedHat-7: *centos-7
