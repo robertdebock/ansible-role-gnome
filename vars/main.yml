@@ -17,10 +17,3 @@ _gnome_packages:
   Ubuntu: *debian
 
 gnome_packages: "{{ _gnome_packages[ansible_distribution ~ '-' ~ ansible_distribution_major_version] | default(_gnome_packages[ansible_distribution]) }}"
-
-_gnome_exclude:
-  RedHat:
-    - "{{ ansible_distribution | lower }}-release-workstation"
-    - coreutils-single
-
-gnome_exclude: "{{ _gnome_exclude[ansible_os_family] }}"

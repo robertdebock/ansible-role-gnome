@@ -4,4 +4,13 @@
   package:
     name: "{{ gnome_packages }}"
     state: present
+  when:
+    - ansible_os_family != "RedHat"
+
+- name: install software with excluded
+  package:
+    name: "{{ gnome_packages }}"
+    state: present
     exclude: "{{ gnome_exclude | default(omit) }}"
+  when:
+    - ansible_os_family == "RedHat"
