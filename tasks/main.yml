@@ -12,5 +12,6 @@
     name: "{{ gnome_packages }}"
     state: present
     exclude: "{{ gnome_exclude | default(omit) }}"
+    skip_broken: yes
   when:
     - ansible_os_family == "RedHat"

@@ -5,7 +5,7 @@ Install Gnome on your system.
 
 |Travis|GitHub|Quality|Downloads|
 |------|------|-------|---------|
-|[![travis](https://travis-ci.org/robertdebock/ansible-role-gnome.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-gnome)|[![github](https://github.com/robertdebock/ansible-role-gnome/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gnome/actions)|![quality](https://img.shields.io/ansible/quality/)|![downloads](https://img.shields.io/ansible/role/d/)|
+|[![travis](https://travis-ci.org/robertdebock/ansible-role-gnome.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-gnome)|[![github](https://github.com/robertdebock/ansible-role-gnome/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gnome/actions)|![quality](https://img.shields.io/ansible/quality/47180)|![downloads](https://img.shields.io/ansible/role/d/47180)|
 
 Example Playbook
 ----------------
