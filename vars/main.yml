@@ -26,4 +26,4 @@ gnome_packages: "{{ _gnome_packages[ansible_distribution ~ '-' ~ ansible_distrib
 
 gnome_exclude:
   - "{{ ansible_distribution | lower }}-release-workstation"
-  - coreutils-single
+  # - coreutils-single
