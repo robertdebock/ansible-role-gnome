@@ -25,7 +25,7 @@ _gnome_packages:
 gnome_packages: "{{ _gnome_packages[ansible_distribution ~ '-' ~ ansible_distribution_major_version] | default(_gnome_packages[ansible_distribution]) }}"
 
 _gnome_exclude:
-  RedHat-7
+  RedHat-7:
     - "{{ ansible_distribution | lower }}-release-workstation"
   RedHat-8:
     - "{{ ansible_distribution | lower }}-release-workstation"
