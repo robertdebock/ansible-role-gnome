@@ -14,4 +14,4 @@
     exclude: "{{ gnome_exclude | default(omit) }}"
     skip_broken: yes
   when:
-    - ansible_os_family == "RedHat"
+    - ansible_distribution in [ "RedHat", "CentOS" ]
