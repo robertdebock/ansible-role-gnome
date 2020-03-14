@@ -10,6 +10,7 @@ _gnome_packages:
     - "@Fedora Workstation"
     - "@Fonts"
     - dbus-x11
+    - gnome-session
   CentOS-7: &centos-7
     - "@^gnome-desktop-environment"
     - xorg-x11-fonts-Type1
