@@ -5,7 +5,7 @@
     name: "{{ gnome_packages }}"
     state: present
   when:
-    - ansible_os_family != "RedHat"
+    - ansible_distribution not in [ "RedHat", "CentOS" ]
 
 - name: install software with excluded
   package:
