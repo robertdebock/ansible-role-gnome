@@ -5,7 +5,7 @@
     name: "{{ gnome_packages }}"
     state: present
   when:
-    - ansible_distribution not in [ "RedHat", "CentOS" ]
+    - ansible_distribution not in [ "RedHat", "CentOS", "Fedora" ]
 
 - name: install software with excluded
   package:
@@ -14,4 +14,4 @@
     exclude: "{{ gnome_exclude | default(omit) }}"
     skip_broken: yes
   when:
-    - ansible_distribution in [ "RedHat", "CentOS" ]
+    - ansible_distribution in [ "RedHat", "CentOS", "Fedora" ]
