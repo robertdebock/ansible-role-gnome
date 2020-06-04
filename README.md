@@ -2,9 +2,9 @@
 
 Install Gnome on your system.
 
-|Travis|GitHub|Quality|Downloads|
-|------|------|-------|---------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-gnome.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-gnome)|[![github](https://github.com/robertdebock/ansible-role-gnome/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gnome/actions)|[![quality](https://img.shields.io/ansible/quality/47180)](https://galaxy.ansible.com/robertdebock/gnome)|[![downloads](https://img.shields.io/ansible/role/d/47180)](https://galaxy.ansible.com/robertdebock/gnome)|
+|Travis|GitHub|Quality|Downloads|Version|
+|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-gnome.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-gnome)|[![github](https://github.com/robertdebock/ansible-role-gnome/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gnome/actions)|[![quality](https://img.shields.io/ansible/quality/47180)](https://galaxy.ansible.com/robertdebock/gnome)|[![downloads](https://img.shields.io/ansible/role/d/47180)](https://galaxy.ansible.com/robertdebock/gnome)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-gnome.svg)](https://github.com/robertdebock/ansible-role-gnome/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
