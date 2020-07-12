@@ -4,6 +4,9 @@
   package:
     name: "{{ gnome_packages }}"
     state: present
+  register: gnome_install_software
+  until: gnome_install_software is succeeded
+  retries: 3
   when:
     - ansible_distribution not in [ "RedHat", "CentOS", "Fedora" ]
 
@@ -13,5 +16,8 @@
     state: present
     exclude: "{{ gnome_exclude | default(omit) }}"
     skip_broken: yes
+  register: gnome_install_software_with_exclude
+  until: gnome_install_software_with_exclude is succeeded
+  retries: 3
   when:
     - ansible_distribution in [ "RedHat", "CentOS", "Fedora" ]
