@@ -3,8 +3,7 @@
 
 _gnome_packages:
   Alpine:
-    - gnome
-    - gnome-apps
+    - gnome-session
   Debian: &debian
     - gnome-session
   Fedora:
