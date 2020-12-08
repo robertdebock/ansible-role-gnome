@@ -2,9 +2,9 @@
 
 Install Gnome on your system.
 
-|Travis|GitHub|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-gnome.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-gnome)|[![github](https://github.com/robertdebock/ansible-role-gnome/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gnome/actions)|[![quality](https://img.shields.io/ansible/quality/47180)](https://galaxy.ansible.com/robertdebock/gnome)|[![downloads](https://img.shields.io/ansible/role/d/47180)](https://galaxy.ansible.com/robertdebock/gnome)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-gnome.svg)](https://github.com/robertdebock/ansible-role-gnome/releases/)|
+|Travis|GitHub|GitLab|Quality|Downloads|Version|
+|------|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-gnome.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-gnome)|[![github](https://github.com/robertdebock/ansible-role-gnome/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gnome/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-gnome/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-gnome)|[![quality](https://img.shields.io/ansible/quality/47180)](https://galaxy.ansible.com/robertdebock/gnome)|[![downloads](https://img.shields.io/ansible/role/d/47180)](https://galaxy.ansible.com/robertdebock/gnome)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-gnome.svg)](https://github.com/robertdebock/ansible-role-gnome/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -111,10 +111,6 @@ image="debian" tag="stable" tox
 ## [License](#license)
 
 Apache-2.0
-
-## [Contributors](#contributors)
-
-I'd like to thank everybody that made contributions to this repository. It motivates me, improves the code and is just fun to collaborate.
 
 
 ## [Author Information](#author-information)
