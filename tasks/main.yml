@@ -1,20 +1,19 @@
 ---
 # tasks file for gnome
 
-- name: configure gnome
-  block:
-    - name: install software
-      package:
-        name: "{{ gnome_packages }}"
-        state: present
-        allowerasing: yes
-
-    - name: install software with excluded
-      package:
-        name: "{{ gnome_packages }}"
-        state: present
-        exclude: "{{ gnome_exclude | default(omit) }}"
-        skip_broken: yes
-        allowerasing: yes
+- name: install software on redhat like systems
+  package:
+    name: "{{ gnome_packages }}"
+    state: present
+    exclude: "{{ gnome_exclude | default(omit) }}"
+    skip_broken: yes
+    allowerasing: yes
   when:
-    - ansible_distribution in [ "RedHat", "CentOS", "Fedora" ]
+    - ansible_os_family == "RedHat"
+
+- name: install software on non-redhat like systems
+  package:
+    name: "{{ gnome_packages }}"
+    state: present
+  when:
+    - ansible_os_family != "RedHat"
