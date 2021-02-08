@@ -61,7 +61,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 |container|tags|
 |---------|----|
 |alpine|all|
-|el|7|
+|el|8|
 |debian|buster, bullseye|
 |fedora|all|
 |opensuse|all|
