@@ -2,6 +2,7 @@
 # vars file for gnome
 
 _gnome_packages:
+  default: []
   Alpine:
     - gnome-session
   Debian: &debian
@@ -10,6 +11,8 @@ _gnome_packages:
     - "@Fedora Workstation"
     - "@Fonts"
     - dbus-x11
+  CentOS:
+    - "@Server with GUI"
   CentOS-7: &centos-7
     - "@^gnome-desktop-environment"
     - xorg-x11-fonts-Type1
@@ -19,7 +22,7 @@ _gnome_packages:
   RedHat-7: *centos-7
   Ubuntu: *debian
 
-gnome_packages: "{{ _gnome_packages[ansible_distribution ~ '-' ~ ansible_distribution_major_version] | default(_gnome_packages[ansible_distribution]) }}"
+gnome_packages: "{{ _gnome_packages[ansible_distribution ~ '-' ~ ansible_distribution_major_version] | default(_gnome_packages[ansible_distribution] | default(_gnome_packages['default'])) }}"
 
 gnome_exclude:
   - "{{ ansible_distribution | lower }}-release-workstation"
