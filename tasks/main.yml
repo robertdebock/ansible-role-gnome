@@ -2,7 +2,7 @@
 # tasks file for gnome
 
 - name: install software on redhat like systems
-  package:
+  ansible.builtin.package:
     name: "{{ gnome_packages }}"
     state: present
     exclude: "{{ gnome_exclude | default(omit) }}"
@@ -12,7 +12,7 @@
     - ansible_os_family == "RedHat"
 
 - name: install software on non-redhat like systems
-  package:
+  ansible.builtin.package:
     name: "{{ gnome_packages }}"
     state: present
   when:
