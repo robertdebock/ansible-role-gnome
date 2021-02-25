@@ -22,4 +22,3 @@ gnome_packages: "{{ _gnome_packages[ansible_distribution] | default(_gnome_packa
 gnome_exclude:
   - "{{ ansible_distribution | lower }}-release-workstation"
   - "{{ ansible_distribution | lower }}-release-workstation"
-  - coreutils-single
