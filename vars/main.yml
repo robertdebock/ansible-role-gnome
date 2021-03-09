@@ -22,9 +22,3 @@ gnome_packages: "{{ _gnome_packages[ansible_distribution] | default(_gnome_packa
 gnome_exclude:
   - "{{ ansible_distribution | lower }}-release-workstation"
   - "{{ ansible_distribution | lower }}-release-workstation"
-
-_gnome_allowerasing:
-  default: yes
-  2.9: null
-
-gnome_allowerasing: "{{ _gnome_allowerasing[ansible_version.major ~ '.' ~ ansible_version.minor] | default(_gnome_allowerasing['default']) }}"
