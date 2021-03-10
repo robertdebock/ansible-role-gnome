@@ -18,6 +18,7 @@ _gnome_packages:
   openSUSE Leap:
     - gnome-desktop
     - gnome-session
+    - gdm
 
 gnome_packages: "{{ _gnome_packages[ansible_distribution] | default(_gnome_packages[ansible_os_family] | default(_gnome_packages['default'] )) }}"
 
