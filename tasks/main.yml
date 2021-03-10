@@ -19,6 +19,6 @@
 
 - name: start gnome display manager
   service:
-    name: "{{ gnome_display_manager }}"
+    name: gdm
     state: started
     enabled: yes
