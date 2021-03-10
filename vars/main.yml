@@ -4,6 +4,7 @@
 _gnome_packages:
   default: []
   Alpine:
+    - gdm
     - gnome-session
   Debian:
     - gnome-session
