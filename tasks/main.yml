@@ -16,3 +16,9 @@
     state: present
   when:
     - ansible_pkg_mgr != "dnf"
+
+- name: start gnome display manager
+  service:
+    name: "{{ gnome_display_manager }}"
+    state: started
+    enabled: yes
