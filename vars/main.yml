@@ -8,6 +8,7 @@ _gnome_packages:
     - gnome-session
   Debian:
     - gnome-session
+    - gdm3
   Fedora:
     - "@Fedora Workstation"
     - "@Fonts"
