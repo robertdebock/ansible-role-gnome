@@ -63,7 +63,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 |alpine|all|
 |debian|buster, bullseye|
 |el|8|
-|fedora|all|
+|fedora|33|
 |opensuse|all|
 |ubuntu|focal, bionic|
 
