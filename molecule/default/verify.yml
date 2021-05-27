@@ -6,4 +6,5 @@
 
   tasks:
     - name: check gnome-session
-      command: gnome-session --help
+      ansible.builtin.command:
+        cmd: gnome-session --help
