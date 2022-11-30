@@ -65,7 +65,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 |alpine|all|
 |debian|all|
 |el|8|
-|fedora|35, 36|
+|fedora|36|
 |opensuse|all|
 |ubuntu|focal, bionic|
 
