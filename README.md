@@ -4,7 +4,7 @@ Install Gnome on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-gnome/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gnome/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-gnome/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-gnome)|[![quality](https://img.shields.io/ansible/quality/47180)](https://galaxy.ansible.com/robertdebock/gnome)|[![downloads](https://img.shields.io/ansible/role/d/47180)](https://galaxy.ansible.com/robertdebock/gnome)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-gnome.svg)](https://github.com/robertdebock/ansible-role-gnome/releases/)|
+|[![github](https://github.com/robertdebock/ansible-role-gnome/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gnome/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-gnome/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-gnome)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/robertdebock/gnome)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/robertdebock/gnome)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-gnome.svg)](https://github.com/robertdebock/ansible-role-gnome/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -41,7 +41,7 @@ Also see a [full explanation and example](https://robertdebock.nl/how-to-use-the
 
 - pip packages listed in [requirements.txt](https://github.com/robertdebock/ansible-role-gnome/blob/master/requirements.txt).
 
-## [Status of used roles](#status-of-requirements)
+## [State of used roles](#state-of-used-roles)
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
