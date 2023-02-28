@@ -4,7 +4,7 @@ Install Gnome on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-gnome/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gnome/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-gnome/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-gnome)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/robertdebock/gnome)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/robertdebock/gnome)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-gnome.svg)](https://github.com/robertdebock/ansible-role-gnome/releases/)|
+|[![github](https://github.com/robertdebock/ansible-role-gnome/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gnome/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-gnome/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-gnome)|[![quality](https://img.shields.io/ansible/quality/47180)](https://galaxy.ansible.com/robertdebock/gnome)|[![downloads](https://img.shields.io/ansible/role/d/47180)](https://galaxy.ansible.com/robertdebock/gnome)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-gnome.svg)](https://github.com/robertdebock/ansible-role-gnome/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -69,7 +69,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 |[opensuse](https://hub.docker.com/repository/docker/robertdebock/opensuse/general)|all|
 |[Ubuntu](https://hub.docker.com/repository/docker/robertdebock/ubuntu/general)|focal, bionic|
 
-The minimum version of Ansible required is 2.10, tests have been done to:
+The minimum version of Ansible required is 2.12, tests have been done to:
 
 - The previous version.
 - The current version.
