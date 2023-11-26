@@ -1,4 +1,4 @@
-# Ansible role [gnome](#gnome)
+# [Ansible role gnome](#gnome)
 
 Install Gnome on your system.
 
