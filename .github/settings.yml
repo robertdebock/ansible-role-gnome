@@ -5,4 +5,4 @@
 repository:
   description: Install Gnome on your system.
   homepage: https://robertdebock.nl/
-  topics: gnome, ansible, molecule, tox, playbook
+  topics: gnome, ansible, molecule, playbook
