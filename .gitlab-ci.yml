@@ -31,8 +31,6 @@ molecule:
         tag: "latest"
       - image: "fedora"
         tag: "latest"
-      - image: "ubuntu"
-        tag: "focal"
 
 galaxy:
   image: python:3.13
