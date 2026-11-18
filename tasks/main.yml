@@ -15,7 +15,7 @@
     name: "{{ gnome_packages }}"
     state: present
   when:
-    - ansible_facts['pkg_mgr'] != "dnf"
+    - ansible_facts['pkg_mgr'] not in [ "dnf", "dnf5" ]
 
 - name: Start dbus-broker
   ansible.builtin.service:
